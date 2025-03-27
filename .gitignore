@@ -3,9 +3,7 @@
 # dependencies
 /public/gallery
 /public/icons
-/public/routeHighlights
-/public/routeImg
-/public/socialCall
+
 
 /node_modules
 /.pnp
