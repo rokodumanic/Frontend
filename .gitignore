@@ -1,7 +1,14 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-/public
+/public/gallery
+/public/icons
+/public/routeHighlights
+/public/routeImg
+/public/socialCall
+/public/step1
+/public/step2
+/public/welcome
 /node_modules
 /.pnp
 .pnp.*
