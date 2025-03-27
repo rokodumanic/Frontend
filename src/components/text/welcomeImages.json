@@ -1,0 +1,6 @@
+[
+  { "src": "/welcome/sail.png", "alt": "Sail" },
+  { "src": "/welcome/party.png", "alt": "Party" },
+  { "src": "/welcome/explore.png", "alt": "Explore" },
+  { "src": "/welcome/relax.png", "alt": "Relax" }
+]

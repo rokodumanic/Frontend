@@ -1,0 +1,32 @@
+[
+  {
+    "src": "/step2/cabin.png",
+    "alt": "Couple on a boat",
+    "title": "Solo, Cabin or Group of Friends",
+    "description": "Solo, with a friend or with the whole crew, we got it all covered! Lorem ipsum dolor sit amet consectetur. Tellus lectus non purus odio amet fermentum eu morbi id. Risus sed facilisis maecenas urna nunc.",
+    "button": "COMPARE CABINS ",
+    "buttonUrl": "",
+    "optionTitle": "Solo",
+    "optionDescription": "Book a single spot and share a bunk bed cabin with a person of the same gender. We have a lot of single travelers just like you. "
+  },
+  {
+    "src": "/step2/sailboat.png",
+    "alt": "Sailboat",
+    "title": "Catamaran or Monohull",
+    "description": "Lorem ipsum dolor sit amet consectetur. Tellus lectus non purus odio amet fermentum eu morbi id. Risus sed facilisis maecenas urna nunc.",
+    "button": "COMPARE YACHTS",
+    "buttonUrl": "",
+    "optionTitle": "Catamaran",
+    "optionDescription": "Twin hulled boat - for those who travel in style"
+  },
+  {
+    "src": "/step2/seafront.png",
+    "alt": "Seafront",
+    "title": "Skipper and Host",
+    "description": "Lorem ipsum dolor sit amet consectetur. Tellus lectus non purus odio amet fermentum eu morbi id. Risus sed facilisis maecenas urna nunc.",
+    "button": "ABOUT US",
+    "buttonUrl": "",
+    "optionTitle": "Skipper",
+    "optionDescription": "Lorem ipsum dolor sit amet consectetur"
+  }
+]

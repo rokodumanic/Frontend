@@ -1,0 +1,16 @@
+[
+  {
+    "title": "Sailweek experience",
+    "price": "787",
+    "includes": 6,
+    "bgcolor": "bg-[#B8E1FF]",
+    "offers": ["experience", "ut enim ad", "duis aute dolor", "lorem dolor sit amet", "duis aute", "excepteur sint"]
+  },
+  {
+    "title": "Individual experience",
+    "price": "",
+    "includes": 2,
+    "bgcolor": "bg-[#FFFFFF]",
+    "offers": ["experience", "ut enim ad", "duis aute dolor", "lorem dolor sit amet", "duis aute", "excepteur sint"]
+  }
+]

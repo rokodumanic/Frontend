@@ -1,0 +1,64 @@
+.card {
+  width: 300px;
+  margin: 20px 0;
+  overflow: hidden;
+  background-color: transparent;
+}
+
+.content {
+  padding: 20px 0;
+}
+
+.content h3 {
+  margin-bottom: 10px;
+}
+
+.content p {
+  line-height: 1.6;
+}
+
+.gallery{
+    width: 80%;
+    display: grid;
+    gap: 1.5rem; /* Assuming 6 corresponds to a spacing value, adjust as needed */
+    justify-content: center; /* Center the grid container's content */
+    padding: 0;
+  }
+  
+  @media (min-width: 640px) { /* sm: */
+    .gallery {
+      grid-template-columns: repeat(1, minmax(0, 1fr)); /* sm:grid-cols-1 */
+    }
+  }
+  
+  @media (min-width: 1024px) { /* lg: */
+    .gallery {
+      grid-template-columns: repeat(3, minmax(0, 1fr)); /* lg:grid-cols-3 */
+    }
+  }
+  
+  @media (min-width: 1280px) { /* xl: */
+    .gallery {
+      grid-template-columns: repeat(3, minmax(0, 1fr)); /* xl:grid-cols-3 */
+    }
+  }
+
+.image {
+  border-radius: 10px;
+}
+
+.imageContainer {
+  position: relative;
+  margin: 0 auto;
+  height: 200px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.routeContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #062949;
+    width: 100%;
+
+}

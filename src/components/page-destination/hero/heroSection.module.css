@@ -1,0 +1,66 @@
+.hero {
+  position: relative;
+  color: white;
+  display: flex;
+  margin-bottom: 1rem;
+  flex-direction: column;
+  width: 100%;
+}
+
+.bgImg{
+  position: relative;
+  width:100%;
+  overflow: hidden;
+    height: 510px;
+}
+
+.description {
+  margin-bottom: 1rem;
+  margin-left: 8rem;
+  color: #062949;
+}
+
+.descriptionContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  max-width: 55%;
+}
+
+.imageContainer {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%; 
+  display: block;
+  height: 100%;
+}
+
+.routeInfo {
+  position: relative;
+  bottom: 1rem;
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: row;
+
+ }
+
+.routeType {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.textOverlay {
+  position: absolute;
+  z-index: 100;
+  bottom: 2rem;
+  left: 10%;
+  color: white;
+  
+}
+
+.title {
+  font-size: 2.5rem;
+}
+
+

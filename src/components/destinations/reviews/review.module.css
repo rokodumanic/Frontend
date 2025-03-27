@@ -1,0 +1,36 @@
+.carouselContainer {
+  display: flex;
+  flex-direction: row;
+  transition: transform 0.3s ease; /* Smooth transition */
+  margin-left: auto;
+}
+
+.carouselWrapper {
+  position: relative;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 500px;
+  top: 10rem;
+  right: 0;
+  z-index: 100;
+}
+
+.image{
+  margin-bottom: 0.8rem;
+}
+
+.reviewContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  padding: 3rem 2rem;
+  flex: 0 0 auto;
+  width: 460px;
+  height: auto;
+  margin-right: 1rem;
+  border-radius: 5px;
+}

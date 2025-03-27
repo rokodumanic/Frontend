@@ -1,0 +1,26 @@
+[
+  {
+    "title": "10%",
+    "description": "pay when booked",
+    "percentage": 0.1,
+    "bgcolor": "bg-[#ffffff]",
+    "color": "text-[#656565]",
+    "src":"/icons/dollar1.png"
+  },
+  {
+    "title": "40%",
+    "description": "pay 30 days after booking",
+    "percentage": 0.4,
+    "bgcolor": "bg-[#ffffff]",
+    "color": "text-[#656565]",
+    "src":"/icons/dollar2.png"
+  },
+  {
+    "title": "50%",
+    "description": "pay 60 days before trip",
+    "percentage": 1,
+    "bgcolor": "bg-[#ffffff]",
+    "color": "text-[#656565]",
+    "src":"/icons/dollar3.png"
+  }
+]

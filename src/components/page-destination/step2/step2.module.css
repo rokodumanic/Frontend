@@ -1,0 +1,61 @@
+.button{
+  background-color: #ffffff;
+  color: #062949;
+  padding: 0.5rem 0.5rem;
+  border: none;
+  border-radius: 20px;
+  margin: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 15rem;
+}
+
+.image{
+    object-fit: cover;
+}
+
+.imgContainer{
+    border-radius: 10px;
+    position: relative;
+    width: 555px;
+    height: 500px;
+    padding-bottom: 45.45%;
+}
+
+.optionsContainer{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.sectionContainer{
+display: flex;
+flex-direction: column;
+width: 80%;
+overflow: hidden;
+margin: 2rem auto;
+
+}
+
+.sectionContent{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+}
+
+.spanArrow{
+    border-radius: 50%;
+    background-color: #ecfbff;
+    width: 1.5rem;
+    height: 1.5rem;
+    padding-bottom: 0.5rem;
+    align-self: center;
+}
+
+.textContainer{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}

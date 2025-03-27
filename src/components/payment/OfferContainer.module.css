@@ -1,0 +1,61 @@
+.benefits {
+  margin-bottom: 0.4rem;
+}
+
+.benefitsContainer {
+  text-align: left;
+  font-size: x-small;
+  margin-bottom: 0.6rem;
+}
+
+.featureItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+  border: none;
+}
+
+.icon {
+  margin-right: 8px;
+  display: inline;
+}
+
+.offer {
+    width: 77%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.offerContainer {
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 4px 4px 8px rgba(57, 57, 57, 0.1);
+}
+
+.square {
+  width: 40%;
+  min-width: 350px;
+  aspect-ratio: 1 / 1;
+  border-radius: 10px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  text-align: left;
+  width: 50%;
+}
+
+@media (max-width: 1000px){
+  .offer{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .offerContainer{
+    margin: 1rem auto;
+  }
+}

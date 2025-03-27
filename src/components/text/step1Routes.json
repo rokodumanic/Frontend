@@ -1,0 +1,66 @@
+[
+  {
+    "title": "Ultra Route",
+    "src": "/step1/ultra.png",
+    "alt": "Ultra Music Festival Stage",
+    "items": [
+      { "title": "Organised parties", "percentage": 1 },
+      { "title": "Sailweek Regatta", "percentage": 1 },
+      { "title": "Swim Stops", "percentage": 0.6 },
+      { "title": "Sightseeing", "percentage": 0.5 },
+      { "title": "Local cuisine", "percentage": 0 },
+      { "title": "Wine tasting", "percentage": 0 },
+      { "title": "Island hopping", "percentage": 0.25 },
+      { "title": "Exploring cities", "percentage": 0.15 },
+      { "title": "Cliff jumping", "percentage": 0.3 }
+    ]
+  },
+  {
+    "title": "Party Route",
+    "src": "/step1/ultra.png",
+    "alt": "Ultra Music Festival Stage",
+    "items": [
+      { "title": "Organised parties", "percentage": 1 },
+      { "title": "Sailweek Regatta", "percentage": 1 },
+      { "title": "Swim Stops", "percentage": 0.6 },
+      { "title": "Sightseeing", "percentage": 0.5 },
+      { "title": "Local cuisine", "percentage": 0 },
+      { "title": "Wine tasting", "percentage": 0 },
+      { "title": "Island hopping", "percentage": 0.25 },
+      { "title": "Exploring cities", "percentage": 0.15 },
+      { "title": "Cliff jumping", "percentage": 0.3 }
+    ]
+  },
+  {
+    "title": "Greece Route",
+    "src": "/step1/ultra.png",
+    "alt": "Ultra Music Festival Stage",
+    "items": [
+      { "title": "Organised parties", "percentage": 1 },
+      { "title": "Sailweek Regatta", "percentage": 1 },
+      { "title": "Swim Stops", "percentage": 0.6 },
+      { "title": "Sightseeing", "percentage": 0.5 },
+      { "title": "Local cuisine", "percentage": 0 },
+      { "title": "Wine tasting", "percentage": 0 },
+      { "title": "Island hopping", "percentage": 0.25 },
+      { "title": "Exploring cities", "percentage": 0.15 },
+      { "title": "Cliff jumping", "percentage": 0.3 }
+    ]
+  },
+  {
+    "title": "Adventure Route",
+    "src": "/step1/ultra.png",
+    "alt": "Ultra Music Festival Stage",
+    "items": [
+      { "title": "Organised parties", "percentage": 1 },
+      { "title": "Sailweek Regatta", "percentage": 1 },
+      { "title": "Swim Stops", "percentage": 0.6 },
+      { "title": "Sightseeing", "percentage": 0.5 },
+      { "title": "Local cuisine", "percentage": 0 },
+      { "title": "Wine tasting", "percentage": 0 },
+      { "title": "Island hopping", "percentage": 0.25 },
+      { "title": "Exploring cities", "percentage": 0.15 },
+      { "title": "Cliff jumping", "percentage": 0.3 }
+    ]
+  }
+]

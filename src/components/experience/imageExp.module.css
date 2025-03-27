@@ -1,0 +1,22 @@
+.image{
+    border-radius: 10px;
+     object-fit: cover;
+}
+
+.imageContainer{
+    position: relative;
+    padding-right: 1rem;
+}
+
+.imageExp{
+    display: flex; 
+    justify-content: center;
+    padding: 1rem;
+}
+
+.title{
+    position: absolute;
+    top:0.5rem;
+    left:0.5rem;
+     color: white; 
+}

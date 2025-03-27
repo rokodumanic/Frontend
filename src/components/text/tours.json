@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Party route",
+    "price": 710,
+    "party": 0.75,
+    "adventure": 0.3,
+    "src": "/islandCover.png",
+    "alt": "Island"
+  },
+  {
+    "id": 2,
+    "name": "Ultra route",
+    "price": 792,
+    "party": 0.9,
+    "adventure": 0.2,
+    "src": "/routeImg/ultraRoute.png",
+    "alt": "Ultra Music Festival Stage"
+  },
+  {
+    "id": 3,
+    "name": "Greece route",
+    "price": 792,
+    "party": 0.4,
+    "adventure": 0.75,
+    "src": "/routeImg/greeceRoute.png",
+    "alt": "Greek Town"
+  },
+  {
+    "id": 4,
+    "name": "Adventure route",
+    "price": 792,
+    "party": 0.05,
+    "adventure": 0.95,
+    "src": "/routeImg/adventureRoute.png",
+    "alt": "Old Mediteranian Town"
+  }
+]
