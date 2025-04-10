@@ -3,6 +3,7 @@ import Image from "next/image";
 import data from '../text/tours.json';
 import ProgressBar from '../tools/ProgressBar';
 import styles from "./tourItem.module.css";
+import Gradient from '../tools/Gradiant';
 
 function TourBox() {
   return (
@@ -17,6 +18,7 @@ function TourBox() {
             height={404}
             className={styles.image}
           />
+          <Gradient color={"#062949"} height={"h-48"}/>
           </div>
           <div className="absolute bottom-12 left-14 text-white">
           <p className='pb-1 subtitle2 regular'>From ${tour.price}/person</p>
