@@ -23,6 +23,7 @@
     gap: 1.5rem; /* Assuming 6 corresponds to a spacing value, adjust as needed */
     justify-content: center; /* Center the grid container's content */
     padding: 0;
+    justify-items: center;
   }
   
   @media (min-width: 640px) { /* sm: */

@@ -1,6 +1,7 @@
 .image{
     border-radius: 10px;
     object-fit: cover;
+    width: 100%;
 }
 
 .imageContainer {
@@ -30,5 +31,5 @@
     display: flex;
     flex-wrap: wrap;
     margin: 3rem auto;
-    width: 85%;
+    width: 80%;
   }

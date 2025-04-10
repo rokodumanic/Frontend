@@ -6,7 +6,7 @@ import ReviewsContainer from "./destinations/reviews/ReviewsContainer";
 
 function Destinations() {
   return (
-    <div className="bg-[#ecfbff]">
+    <div className="bg-[#ecfbff] fullwidth">
       <BlockHeader
         blockname={destinationHeader.blockname}
         title={destinationHeader.title}
