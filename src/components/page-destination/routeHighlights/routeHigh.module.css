@@ -32,7 +32,7 @@
     }
   }
   
-  @media (min-width: 1024px) { /* lg: */
+  @media (min-width: 1130px) { /* lg: */
     .gallery {
       grid-template-columns: repeat(3, minmax(0, 1fr)); /* lg:grid-cols-3 */
     }

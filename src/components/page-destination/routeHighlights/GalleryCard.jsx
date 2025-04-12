@@ -5,7 +5,14 @@ const GalleryCard = ({ src, alt, title, description }) => {
   return (
     <div className={styles.card}>
       <div className={`${styles.imageContainer}`}>
-        <Image className={styles.image} src={src} alt={alt} layout="fill" objectFit="cover" />
+        <Image
+          className={styles.image}
+          src={src}
+          alt={alt}
+          fill
+          style={{ objectFit: "cover" }}
+          sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 30vw"
+        />
       </div>
       <div className={styles.content}>
         <h5 className="semibold">{title}</h5>

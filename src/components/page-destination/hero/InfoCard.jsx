@@ -64,6 +64,7 @@ function InfoCard() {
             alt="My Icon"
             width={30}
             height={10}
+            style={{ width: "auto" }}
           />
           <p className={styles.detail}>July 1 August</p>
         </div>

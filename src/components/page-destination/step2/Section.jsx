@@ -18,7 +18,14 @@ function Section({
         <div className={styles.sectionContent}>
           <div>
             <div className={styles.imgContainer}>
-              <Image className={styles.image} src={src} alt={alt} fill />
+              <Image
+                className={styles.image}
+                src={src}
+                alt={alt}
+                fill
+                style={{ objectFit: "cover" }}
+                sizes="(max-width: 768px) 100vw, (max-width: 1024px) 40vw, 30vw"
+              />
             </div>
             <div className={styles.optionContainer}>
               <p className="subtitle1 semiboldP">{optionTitle}</p>
@@ -28,7 +35,9 @@ function Section({
           <div className={styles.textContainer}>
             <h3 className="semiboldP">{title}</h3>
             <p className="body1 slim">{description}</p>
-            <button className={`${styles.button} button`} href={buttonUrl}>{button} <span className={styles.spanArrow}> {">"} </span></button>
+            <button className={`${styles.button} button`}>
+              {button} <span className={styles.spanArrow}> {">"} </span>
+            </button>
           </div>
         </div>
       ) : (
@@ -36,11 +45,21 @@ function Section({
           <div className={styles.textContainer}>
             <h3 className="semiboldP">{title}</h3>
             <p className="body1 slim">{description}</p>
-            <button className={`${styles.button} button`} href={buttonUrl}>{button} <span className={styles.spanArrow}> {">"} </span></button>
+            <button className={`${styles.button} button`}>
+              {button} <span className={styles.spanArrow}> {">"} </span>
+            </button>
           </div>
           <div>
             <div className={styles.imgContainer}>
-              <Image className={styles.image} src={src} alt={alt} fill />
+              <Image
+                className={styles.image}
+                src={src}
+                alt={alt}
+                fill
+                style={{ objectFit: "cover" }}
+                sizes="(max-width: 768px) 100vw, (max-width: 1024px) 40vw, 30vw"
+
+              />
             </div>
             <div className={styles.optionContainer}>
               <p className="subtitle1 semiboldP">{optionTitle}</p>

@@ -11,13 +11,16 @@ function HeroSection() {
           <Image
             src="/islandCover.png"
             alt="Hero Image"
-            layout="fill"
-            objectFit="cover"
+            fill
+            style={{ objectFit: "cover" }}
+            priority
           />
         </div>
         <div className={styles.textOverlay}>
           <p className={styles.routeType}>Party route</p>
-          <h1 className={styles.title}>The best stories are <br/> to be told</h1>
+          <h1 className={styles.title}>
+            The best stories are <br /> to be told
+          </h1>
         </div>
         <Gradient color={"#213553"} height={"h-96"} />
       </div>

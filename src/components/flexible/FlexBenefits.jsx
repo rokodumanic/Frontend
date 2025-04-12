@@ -6,7 +6,7 @@ function FlexBenefits({data}) {
   return (
     <div className={styles.flexBContainer}>
       {data.map((benefit, index) => (
-        <div className={`${styles.flexBenefit} ${benefit.bgcolor}`}>
+        <div className={`${styles.flexBenefit} ${benefit.bgcolor}`} key={index}>
         <div className={styles.imgContainer}>
            <Image  src={benefit.src} alt="money icon" width={33} height={33}/>
            </div>
